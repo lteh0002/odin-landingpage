@@ -8,8 +8,10 @@
 }
 
 body {
-    width: 1200px;
     margin: auto;
+}
+
+.header,.hero{
     background-color: #1f2937;
 }
 
@@ -17,6 +19,8 @@ body {
     display: flex;
     justify-content: space-between;
     height: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .logo {
@@ -41,6 +45,10 @@ body {
 
 .hero {
     display: flex;
+    padding-left: 50px;
+    justify-content: space-between;
+    padding-right: 50px;
+    height: 500px;
 }
 
 .hero-text button {
@@ -56,8 +64,10 @@ body {
     color: #f9faf8;
     font-size: 48px;
     padding-left: 10px;
-    width: 600px;
+    width: 700px;
     margin-top: 120px;
+    margin-right: 50px;
+    max-height: 300px;
 }
 
 .hero-text > p {
@@ -65,9 +75,82 @@ body {
     color: #e5e7eb;
 }
 
-.hero > img {
-    padding-top: 130px;
-    width: 570px;
-    margin-left: 40px;
-    height: 450px;
+img {
+    margin-top: 120px;
+}
+
+.content {
+    padding: 30px;
+    height: 500px;
+}
+
+.crypto {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    margin: auto;
+    
+}
+
+.content-header {
+    text-align: center;
+    font-size: 36px;
+    color: #1f2937;
+}
+
+@media (max-width: 1300px) { 
+    .hero-text {
+        font-size: 20px;
+    }
+}
+
+.quote {
+    text-align: center;
+    background-color: #e5e7eb;
+    padding: 200px;
+    height: 500px;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.action {
+    padding: 200px;
+}
+
+.box {
+    background-color: #3882F6;
+    padding: 50px;
+    border-radius: 6px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-text {
+    font-size: 30px;
+}
+
+.box-button {
+    padding-top: 35px;
+    padding-right: 30px;
+}
+
+.box-button button {
+    background-color: #3882F6;
+    width: 150px;
+    font-size: 25px;
+    border-color: white;
+    border-radius: 10px;
+    color: white;
+    padding: 5px;
+}
+
+.footer {
+    text-align: center;
+    height: 50px;
+    background-color: #1f2937;
+    padding: 15px;
+    color: white;
 }
